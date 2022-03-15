@@ -12,11 +12,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color( 0.937255, 1, 0.992157, 1 )
 
-[node name="HBoxContainer" type="HBoxContainer" parent="PanelPrincipal"]
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 
-[node name="BarraLateral" type="Panel" parent="PanelPrincipal/HBoxContainer"]
+[node name="BarraLateral" type="Panel" parent="HBoxContainer"]
 margin_right = 70.0
 margin_bottom = 720.0
 rect_min_size = Vector2( 70, 0 )
